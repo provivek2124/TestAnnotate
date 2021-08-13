@@ -34,13 +34,13 @@ public class Class1 {
 		//BeforeTest Annotation
 		@BeforeTest
 		public void bt() {
-			System.out.println("This will get executed second");
+			System.out.println("I will get executed second");
 		}
 		
 		@BeforeClass 
 		public void bc(){
-			System.out.println("This will get executed third");
-		}
+			System.out.println("I will get executed third because i am defined in class1 of package1");
+		} 
 		
 		@AfterClass
 		public void ac() {
